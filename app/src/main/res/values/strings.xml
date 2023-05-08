@@ -12,9 +12,9 @@
     <string name="google_server_api_key_1">AIzaSyC5njXuczfKbr</string>
     <string name="google_server_api_key_2">YarGvXdyf8BHbnhIoYt-E</string>
 
-<!--    <string name="google_server_api_key">AIzaSyAQWC1z2KkUhUNoQeSL8v7QMDf322EMLrk</string>-->
-<!--    <string name="google_server_api_key_1">AIzaSyAQWC1z2KkUhUNoQ</string>-->
-<!--    <string name="google_server_api_key_2">eSL8v7QMDf322EMLrk</string>-->
+    <!--    <string name="google_server_api_key">AIzaSyAQWC1z2KkUhUNoQeSL8v7QMDf322EMLrk</string>-->
+    <!--    <string name="google_server_api_key_1">AIzaSyAQWC1z2KkUhUNoQ</string>-->
+    <!--    <string name="google_server_api_key_2">eSL8v7QMDf322EMLrk</string>-->
 
     <!--List Home-->
     <string name="delivering_to">Delivering to</string>
