@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "64877200210",
+    "firebase_url": "https://laravelfood-bf3d2-default-rtdb.firebaseio.com",
+    "project_id": "laravelfood-bf3d2",
+    "storage_bucket": "laravelfood-bf3d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64877200210:android:f71f173204de6940ccb08b",
+        "android_client_info": {
+          "package_name": "com.exlfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64877200210-df0kmeeq7esug2mk06cqs3o92v6j4a1t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.exlfood",
+            "certificate_hash": "3e4de92a4fd614e68a46adbf2719730404ebfd4b"
+          }
+        },
+        {
+          "client_id": "64877200210-pc25bnfgist2fcv0dh08jf0qtbqpjjfn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.exlfood",
+            "certificate_hash": "8556bc31fd327a17aee871a8458a89c2f0a41b95"
+          }
+        },
+        {
+          "client_id": "64877200210-4bl8248cta7jkll4sptrc23b3r7kdj3a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcQGGIoqUXItH6BmtCbPSL8uDW2cbFZts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64877200210-4bl8248cta7jkll4sptrc23b3r7kdj3a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "64877200210-gkoofpsfvdnqpbndcduro8rbj0ondmnq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.exl-food"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

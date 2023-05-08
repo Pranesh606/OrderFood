@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/business_type_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Fragments.BusinessTypeListFragment">
+
+    <TextView
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins_medium"
+        android:layout_margin="@dimen/_5sdp"
+        android:id="@+id/img_cl_back"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_gravity="center"
+        android:textSize="@dimen/_11sdp"
+        android:textStyle="bold"
+        android:text="@string/all_categories"
+        android:gravity="center"/>
+
+   <androidx.recyclerview.widget.RecyclerView
+       android:layout_marginTop="@dimen/_5sdp"
+       android:layout_marginBottom="@dimen/_40sdp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/business_type_rec_view"/>
+
+    <LinearLayout
+        android:id="@+id/layout_restaurant_empty_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/img_restaurant_menu_list_empty_image"
+            android:layout_width="@dimen/_48sdp"
+            android:layout_height="@dimen/_48sdp"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:background="@drawable/ic_error_outline_black_48dp"
+            android:contentDescription="@string/image" />
+
+        <TextView
+            android:id="@+id/tv_restaurant_menu_list_empty_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:padding="@dimen/_12sdp"
+            android:text="@string/ar_vendor_lst_empty_msg"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_13sdp" />
+
+    </LinearLayout>
+
+</LinearLayout>

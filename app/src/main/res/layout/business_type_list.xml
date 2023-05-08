@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/lay_row_cuisines"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@drawable/bg_grey_curve"
+        android:orientation="vertical"
+        app:cardCornerRadius="@dimen/_3sdp">
+
+        <ImageView
+            android:id="@+id/iv_home_restaurant_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp"
+            android:scaleType="fitXY"
+            android:src="@drawable/x_banner_01" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tv_home_restaurant_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:ellipsize="end"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="bottom|center"
+        android:maxLines="2"
+        android:text="@string/there_is_no_item_found"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10sdp"/>
+
+</LinearLayout>
+

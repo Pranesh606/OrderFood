@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lay_row_cuisines"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <!--android:layout_marginTop="@dimen/_4sdp"-->
+    <!-- android:layout_marginBottom="@dimen/_4sdp"-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- android:background="@drawable/bg_home_cuisines_bg"-->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_3sdp"
+            app:cardCornerRadius="@dimen/_6sdp">
+
+            <ImageView
+                android:id="@+id/iv_home_restaurant_image"
+                android:layout_width="@dimen/_65sdp"
+                android:layout_height="@dimen/_65sdp"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:id="@+id/iv_gc_l_category_image_more_than_7"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_gravity="center"
+                android:src="@drawable/baseline_keyboard_arrow_right_orange_24dp"
+                android:contentDescription="@string/image"
+                android:scaleType="fitXY"
+                android:visibility="visible" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tv_home_restaurant_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:ellipsize="end"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="@string/more"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_10sdp" />
+        <!--android:text="Burger king kings cross"-->
+
+    </LinearLayout>
+
+
+</LinearLayout>
